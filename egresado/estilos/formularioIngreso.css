@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+:focus{
+	outline: none;
+}
+/*FORMULARIO ESTILOS*/
+.form_wrap{
+	width: 60%;
+	height: 400px;
+	display: flex;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+/*INFORMACION DE VENTANA*/
+.contact_info::before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #34633D;
+	opacity: 0.7;
+
+}
+.contact_info{
+	width: 40%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	background-image: url('../img/fondo2.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.info_title,
+.info_items{
+	position: relative;
+	z-index: 2;
+	color: #fff;
+}
+.info_title{
+	margin-bottom: 60px;
+}
+.info_title h2{
+	font-size: 20px;
+}
+.info_title span{
+	font-size: 60px;
+	display: block;
+	margin-bottom: 15px;
+}
+.info_items p{
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: 600;
+
+}
+.info_items span{ 
+	margin-right: 10px;
+}
+.info_items p:nth-child(2) span{
+	font-size: 20px;
+}
+
+
+/*formulario de registro*/
+.form_contact{
+	width: 60%;
+	padding: 20px;
+}
+.form_contact h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: #34633D;
+	text-align: center;
+	margin-bottom:30px;
+}
+
+.user_info{
+	display: flex;
+	flex-direction: column;
+}
+.form_contact label{
+	font-weight: 400;	
+}
+.form_contact input{
+	border: none;
+	border-bottom: 2px solid #d1d1d1;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	font-family: 'Open sans';
+	color: #5a5a5a;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+.olvide{
+	text-decoration: none;
+	margin-bottom: 20px;
+	color: #34633D;
+}
+#btn-ingresar{
+	background: #34633D;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	border-radius: 10px;
+}
+#btn-ingresar:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+#cerrarF{
+	color: #DBDBDB;
+	padding: 10px 15px;
+	float: right;
+	margin-top: -360px;
+	font-size: 20pt;
+	font-weight: 600;
+}
+#cerrarF:hover{
+	cursor: pointer;
+	color: red;
+}
+
+
+/*MODAL VALIDACION*/
+.modal_wrap{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

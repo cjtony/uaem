@@ -1,0 +1,56 @@
+
+.fondo{
+	background-image: url('../img/uaemfondo.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	height: 622px;
+}
+.elegir{
+	background: rgba(255,255,255,0.9);
+	width: 500px;
+	height: 320px;
+	margin: 6% auto;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+.elegir p b{
+	color:#34633D;
+	font-size: 16pt;
+}
+.elegir h5{
+	color:#34633D;
+	font-size: 16pt;
+}
+.link{
+	display: inline-block;
+	color: #163E09;
+	text-decoration: none;
+	border:1px solid #163E09;
+	padding: 10px 30px;
+	font-size: 16pt;
+	border-radius: 10px;
+	-web-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease
+}
+.link:hover{
+	color: #CEA92C;
+	border:1px solid #CEA92C;
+}
+.piepag{
+	text-align: center;
+	opacity: 0.8;
+	padding: 15px;
+	background: #D2F0D2;
+}
+.piepag p{
+	color: #163E09;
+	font-size: 20px;
+}
+.piepag p span{
+	margin-right: 10px;
+}

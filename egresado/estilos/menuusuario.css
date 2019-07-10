@@ -1,0 +1,58 @@
+.panel{
+	background: #2C2D2C;
+	height: 700px;
+}
+.panel p{
+	color: #8F8F8F;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 14pt;
+}
+.link2{
+	font-size: 14pt;
+	color: #8F8F8F;
+	border: 1px solid #8F8F8F;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.link2:hover{
+	color: #CEA92C;
+	border:1px solid #CEA92C;
+}
+.margen{
+	margin-right: 10px;
+}
+.saludo{
+	margin-top: 2%;
+	margin-left:1%;
+}
+
+.h3{
+	color: #34633D;
+	text-align: center;
+}
+.h3 span{
+	margin-right: 10px;
+}
+.posicion{
+	float: right;
+	background: #34633D;
+	border: none;
+}
+.modificar{
+	color: #34633D;
+	text-decoration: none;
+	border:1px solid #34633D;
+	padding: 10px 30px;
+	font-size: 16pt;
+	border-radius: 10px;
+	-web-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease
+}
+.modificar:hover{
+	text-decoration: none;
+	color: #CEA92C;
+	border: 1px solid #CEA92C;
+}

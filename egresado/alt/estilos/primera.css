@@ -1,0 +1,33 @@
+.contenedor-primera{
+	width: 100%;
+	height: 660px;
+	background-image: url(../img/uaemfondo.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+.inicio{
+	margin-top: 30%;
+	text-align: center;
+}
+.contenedor-primera .links{
+	margin: auto;
+	width: 360px;
+	display: flex;
+}
+.links a{
+	margin-right: 2%;
+}
+.links div{
+	padding: 10px 60px;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 14pt;
+	text-decoration: none;
+}
+.links div:hover{
+	color: #34633D;
+	border:1px solid #34633D;
+}

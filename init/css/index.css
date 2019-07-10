@@ -1,0 +1,48 @@
+*{
+	margin: 0; padding: 0;
+}
+body{
+	background: url('../../public/img/uaemfondo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}
+
+.ocult {
+	display: none;
+}
+
+.btnintro{
+	margin-left: 45%;
+	margin-top: 30%;
+}
+
+#inicio div{
+	text-align: center;
+	margin-top: 2%;
+}
+
+#inicio div a{
+	width: 200px;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	font-size: 14pt;
+}
+#inicio div a:hover{
+	text-decoration: none;
+	color: #3C6943;
+	border: 1px solid #3C6943;
+}
+
+.contenedor-form{
+	width: 550px;
+	background: rgba(255,255,255,0.85);
+	padding: 20px;
+	margin: 10% auto;
+}

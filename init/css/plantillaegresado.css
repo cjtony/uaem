@@ -1,0 +1,133 @@
+*{margin:0;padding: 0;}
+
+.espacio{
+	margin-right: 4px;
+}
+
+/*ESTILOS PARA EL CABEZOTE*/
+.contenedor-header{
+	background: #34633D;
+	width: 100%;
+	height: 80px;
+	border-bottom: 3px solid #CEA92C;
+	display: flex;
+	overflow: hidden;
+}
+.contenedor-header .logo{
+	width: 48%;
+	height: 80px;
+	margin-left: 2%;
+	display: flex;
+}
+.contenedor-header .logo p{
+	line-height: 80px;
+}
+.contenedor-header .logo span{
+	color: #CEA92C;
+	font-size: 16pt;
+	line-height: 80px;
+	margin-left: 1%;
+}
+.navegacion-header{
+	width: 48%;
+	text-align: right;
+	line-height: 80px;
+	color: #fff;
+	font-size: 12pt;
+}
+
+.navegacion-header p{
+	display: inline-block;
+	margin-right: 2%;
+
+}
+.navegacion-header div{
+	display: inline-block;
+	color: #CEA92C;
+	font-size: 12pt;
+
+}
+.navegacion-header div:hover{
+	color: #fff;
+}
+
+
+/*ESTILOS PARA EL MENU LATERAL*/
+.contenedor-menu{
+	width: 18%;
+	height: 679px;
+	background:#071907;
+	opacity: 0.8;
+	display: inline-block;
+	float: left;
+}
+.contenedor-menu p{
+	width: 100%;
+	text-align: center;
+	color: #CEA92C;
+	font-size: 16pt;
+	padding: 10px 0px;
+}
+.contenedor-menu ul li{
+	border:1px solid;
+	text-align: center;
+	padding: 20px;
+	font-size: 14pt;
+}
+.contenedor-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+/*ESTILOS DEL CONTENIDO*/
+.contenido{
+	width: 82%;
+	height: 636px;
+	position: absolute;
+	margin-left: 18%;
+	overflow: scroll;
+}
+
+/*ESTILO PARA EL FOOTER*/
+.contenedor-footer{
+	background: #C1C1C1;
+	height: 43px;
+	width: 82%;
+	display: inline-block;
+	float: right;
+	margin-top:636px;
+	text-align: center;
+}
+.contenedor-footer strong{
+	color: #34633D;
+}
+.contenedor-footer strong a{
+	color: #34633D;
+	text-decoration: none;
+}
+.contenedor-footer i{
+	color: #34633D;
+}
+
+.modificar{
+	color: #34633D;
+	text-decoration: none;
+	border:1px solid #34633D;
+	padding: 10px 30px;
+	font-size: 16pt;
+	border-radius: 10px;
+	-web-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease
+}
+.modificar:hover{
+	text-decoration: none;
+	color: #CEA92C;
+	border: 1px solid #CEA92C;
+}
+
+/*ESTILOS ENCUESTAS*/
+.title-encuestas{
+	color:#34633D;
+	font-size: 14pt;
+}

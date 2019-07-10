@@ -1,0 +1,17 @@
+#cerrar{
+	background: none;
+	position: absolute;
+	margin-left: 720px; 
+	color: #DBDBDB;
+	padding: 10px 15px;
+	font-size: 20pt;
+	font-weight: 600;
+	
+}
+#cerrar:hover{
+	cursor: pointer;
+	color: red;
+}
+.imagen{
+	margin-left: 150px;
+}

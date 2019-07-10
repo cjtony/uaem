@@ -1,0 +1,102 @@
+*{margin:0;padding: 0;}
+.espacio{
+	margin-right: 4px;
+}
+.h3{
+	color: red;
+}
+
+/*ESTILOS PARA EL CABEZOTE*/
+.contenedor-header{
+	background: #34633D;
+	width: 100%;
+	height: 80px;
+	border-bottom: 3px solid #CEA92C;
+	display: flex;
+	overflow: hidden;
+}
+.contenedor-header .logo{
+	width: 48%;
+	height: 80px;
+	margin-left: 2%;
+	display: flex;
+}
+.contenedor-header .logo p{
+	line-height: 80px;
+}
+.contenedor-header .logo span{
+	color: #CEA92C;
+	font-size: 16pt;
+	line-height: 80px;
+	margin-left: 1%;
+}
+.navegacion-header{
+	width: 48%;
+	text-align: right;
+	line-height: 80px;
+	color: #fff;
+	font-size: 12pt;
+}
+
+.navegacion-header p{
+	display: inline-block;
+	margin-right: 2%;
+
+}
+.navegacion-header div{
+	display: inline-block;
+	color: #CEA92C;
+	font-size: 12pt;
+
+}
+.navegacion-header div:hover{
+	color: #fff;
+}
+
+/*CAJA DETIPO DE REGISTRO*/
+.tipo-registro{
+	width: 450px;
+	height: 260px;
+	background: rgba(0,0,0,0.1);
+	margin: auto;
+	margin-top: 1%;
+	padding: 10px;
+	border-radius: 5px;
+}
+.tipo-registro p{
+	margin-top: 2%;
+	color: #34633D;
+	text-align: center;
+	font-size: 12pt;
+}
+.tipo-registro h1{
+	color: #34633D;
+	font-size:16pt;
+	text-align: center;
+}
+.tipo-registro div{
+	margin-top: 2%;
+	display: flex;
+	text-align: center;
+}
+.op-elegir a{
+	text-decoration: none;
+}
+.op-elegir div{
+	padding: 10px 60px;
+	border:1px solid #34633D;
+	color: #34633D;
+	border-radius: 5px;
+	font-size: 14pt;
+	text-decoration: none;
+
+}
+.op-elegir div:hover{
+	background: #34633D;
+	color: #fff;
+}
+
+
+.box-registro{
+	width: 80%;
+}

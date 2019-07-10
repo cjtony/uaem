@@ -1,0 +1,111 @@
+/*ESTILOS DE HEADER*/
+*{margin:0; padding: 0;}
+header{
+	width: 100%;
+	overflow: hidden;
+	background:#34633D;
+}
+
+header .logo{
+	color:#fff;
+	font-size: 30px;
+	line-height: 100px;
+	float: left;
+	padding: 10px;
+	width: 720px;
+	display: flex;
+	margin-left:1%; 
+}
+header .logo img{
+	border-right: 2px solid #CEA92C; 
+	padding: 10px; 
+	display: flex; 
+	width: 15%;
+}
+header .logo p{
+	font-size: 20px; 
+	display: flex; 
+	width: 80%; 
+	float: right; 
+	color: #CEA92C; 
+	margin-left:10px;
+	font-weight: 600;
+}
+header nav{
+	margin-right: 4%;
+	float: right;
+	line-height: 130px;
+}
+header nav div{
+	font-size: 14pt;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 5px;
+	line-height: normal;
+	-web-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease
+}
+#img{
+	cursor: pointer;
+	position: absolute;
+	margin-top: -1%;
+	margin-left:-3%;
+}
+.link{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	border:1px solid #fff;
+	padding: 10px 30px;
+	font-size: 16pt;
+	border-radius: 10px;
+	-web-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease
+}
+.link:hover{
+	color: #CEA92C;
+	border:1px solid #CEA92C;
+}
+@media screen and (max-width: 950px){
+	header .logo,
+	header nav{
+		width: 100%;
+		text-align: center;
+		line-height: 80px;
+	}
+}
+
+/*CODIGO PARA EL BOTON CERRAR DE LA VENTANA MODAL DE CAMBIO DE PASSWORD*/
+#cerrar{
+	background: none;
+	position: absolute;
+	margin-left: -40px; 
+	margin-top:-10px; 
+	color: #DBDBDB;
+	padding: 10px 15px;
+	font-size: 20pt;
+	font-weight: 600;
+	
+}
+#cerrar:hover{
+	cursor: pointer;
+	color: red;
+}
+/*CODIGO PARA EL BOTON DE GUARDAR DE LA VENTANA MODAL DE CAMBIO DE PASSWORD*/
+#btnSend{
+	float: right;
+	background: #34633D;
+	border: none;
+}
+#btnSend:hover{
+
+}
+#exampleModalLabel{
+	color: #34633D;
+}
+#staticEmail{
+	color: #CEA92C;
+}

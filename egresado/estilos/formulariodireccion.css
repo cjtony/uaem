@@ -1,0 +1,19 @@
+.form{
+	width: 80%;
+	margin: 2% auto;
+}
+.h3{
+	color: #34633D;
+	text-align: center;
+}
+.h3 span{
+	margin-right: 10px;
+}
+.obligatorios{
+	float: right;
+}
+.posicion{
+	float: right;
+	background: #34633D;
+	border: none;
+}
